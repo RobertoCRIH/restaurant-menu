@@ -1,0 +1,32 @@
+.banner{
+    // BACKGROUND
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    // SIZES AND RADIUS
+    border-radius: 25px;
+    height: 500px;
+    margin: 10px 1vw;
+
+    overflow: hidden;
+    &__content{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.958420868347339) 18%, rgba(0,0,0,0.3393732492997199) 100%);
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+        & .text1{
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        & .text2{
+            color: white;
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+}
