@@ -1,0 +1,31 @@
+$main_red : #9D0000;
+
+.menuCategories{
+    border-radius: 25px;
+    border: 1px solid grey;
+    width: 20vw;
+    // Esto es la sombra
+    -webkit-box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.75);
+
+    // Padding y Margin
+    padding: 15px;
+
+    &__button{
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+
+        border: none;
+        background-color: transparent;
+
+        color: $main_red;
+        font-size: 18px;
+        font-weight: bold;
+
+
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+}
