@@ -16,6 +16,8 @@ $main_red : #9D0000;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
 
+        gap: 0.5vw;
+
         &__item{
             border-radius: 25px;
             border: 1px solid gray;
